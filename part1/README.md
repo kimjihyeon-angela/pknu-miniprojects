@@ -10,7 +10,7 @@
 ![네이버뉴스앱](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/naver_news.png)
 -->
 
-<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/naver_news.png" width="600"/>
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/naver_news.png" width="780"/>
 
 ## DB연동 GUI 개발 학습
 
