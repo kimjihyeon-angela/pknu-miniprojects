@@ -39,7 +39,6 @@ class qtApp(QWidget):
         else:
             api = NaverApi() # NaverApi 클래스 객체 생성
             node = 'news'    # movie로 변경하면 영화검색 가능
-            outputs = []     # 결과 담을 리스트 변수
             display = 100    # 몇 개 출력할 것인가
             
             result = api.get_naver_search(node, search, 1, display)
@@ -62,7 +61,7 @@ class qtApp(QWidget):
 
         # 테이블 위젯에 데이터 넣기
         for i, post in enumerate(items): # 0, 뉴스...
-            # 뉴스번호
+            # 뉴스번호                   # 뉴스 번호 따로 입력하지 않아도 출력되기 때문에 주석처리함
             # num = i + 1                # i가 0부터 시작하기 때문에 뉴스번호 +1 시켜줌
 
             # 뉴스 제목
