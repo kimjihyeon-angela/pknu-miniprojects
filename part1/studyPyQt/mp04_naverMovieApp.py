@@ -2,8 +2,8 @@
 import sys 
 from PyQt5 import uic
 from PyQt5.QtWidgets import *
-from NaverApi import *
 from PyQt5.QtGui import *  # QIcon
+from NaverApi import *
 from urllib.request import urlopen
 import webbrowser # 웹브라우저 모듈
 

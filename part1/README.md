@@ -9,7 +9,6 @@
   - Naver OpenAPI 사용
   - PyQt5 / Qt Designer
 
-
 <!-- HTML 주석
 ![네이버뉴스앱](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/naver_news.png)
 -->
