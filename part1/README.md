@@ -31,10 +31,12 @@
   - PyQt5 / Qt Designer
 
 ![주소록앱1_신규등록](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook1.png)
+신규등록
 
 ![주소록앱2_변경](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook2.png)
+변경
 
 ![주소록앱3_삭제](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook3.png)
-
+삭제
 
 ## 미니프로젝트 실습
