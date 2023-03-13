@@ -32,17 +32,17 @@
 
 ![주소록앱1_신규등록](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook1.png)
 
-신규등록
+<신규등록>
 
 
 ![주소록앱2_변경](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook2.png)
 
-변경
+<변경>
 
 
 ![주소록앱3_삭제](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook3.png)
 
-삭제
+<삭제>
 
 ## 파이썬 관련 추가학습
 - QR코드 생성 앱
@@ -51,7 +51,8 @@
 
 ![Qr생성앱](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/qrcodeapp.png)
 
-QR Code 생성 앱
+<QR Code 생성 앱>
+
 
 - 컴퓨터 정보출력 앱
   - psutil 모듈
@@ -61,6 +62,7 @@ QR Code 생성 앱
 
 ![컴퓨터 정보](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/comInfo.png)
 
-QR Code 생성 앱
+<QR Code 생성 앱>
+
 
 ## 미니프로젝트 실습
