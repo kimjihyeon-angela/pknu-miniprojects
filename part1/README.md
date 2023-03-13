@@ -44,4 +44,20 @@
 
 삭제
 
+## 파이썬 관련 추가학습
+- QR코드 생성 앱
+  - qrcode 모듈
+  - PyQt
+
+![Qr생성앱](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/qrcodeapp.png)
+QR Code 생성 앱
+
+- 컴퓨터 정보출력 앱
+  - psutil 모듈
+  - socket 모듈
+  - requests 모듈
+  - PyQt
+![컴퓨터 정보](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/comInfo.png)
+QR Code 생성 앱
+
 ## 미니프로젝트 실습
