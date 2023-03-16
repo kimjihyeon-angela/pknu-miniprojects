@@ -77,10 +77,13 @@
   - GUI와 처리시간이 긴 로직을 실행하면 반드시 쓰레드 사용해야함
 
 ![쓰레드 비교](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/thread_Nothread.png)
+<쓰레드 사용과 미사용 비교>
 
 - 이메일 전송, 대량메일 전송
 
-
+- PyGame
 
 
 ## 미니프로젝트 실습
+- 
+[팀 리포지토리](https://github.com/Tarel-IoT-PK/Campus)
