@@ -73,8 +73,10 @@
   - zipfile 기본모듈
   - 무차별 대입공격(BruthForce)
 
-- 스레드 사용법
-  - GUI와 처리시간이 긴 로직을 실행하면 반드시 스레드 사용해야함
+- 쓰레드 사용법
+  - GUI와 처리시간이 긴 로직을 실행하면 반드시 쓰레드 사용해야함
+
+![쓰레드 비교](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/thread_Nothread.png)
 
 - 이메일 전송, 대량메일 전송
 
