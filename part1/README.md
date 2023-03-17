@@ -81,8 +81,12 @@
 
 - 이메일 전송, 대량메일 전송
 
-- PyGame
+- 게임만들기 - DinoRun
+  - PyGame
 
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/naver_news2.png" width="780"/>
+
+<다이노 런>
 
 ## 미니프로젝트 실습
 - 
