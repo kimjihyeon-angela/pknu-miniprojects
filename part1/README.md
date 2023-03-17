@@ -84,7 +84,7 @@
 - 게임만들기 - DinoRun
   - PyGame
 
-<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/PyGame.png" width="780"/>
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/pyGame.png" width="780"/>
 
 <다이노 런>
 
