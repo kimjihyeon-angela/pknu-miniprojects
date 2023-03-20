@@ -87,7 +87,13 @@
 
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/pyGame.png" width="780"/>
 
-<다이노 런>
+<다이노 런 게임 화면>
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/pygame2.png" width="780"/>
+
+<다이노 런 재시작 화면>
+
+
 
 ## 미니프로젝트 실습
 - 
