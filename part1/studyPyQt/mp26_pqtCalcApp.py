@@ -9,6 +9,8 @@ class qtApp(QWidget):
     def __init__(self):
         super().__init__()
         uic.loadUi('./studyPyQt/calculator.ui', self)
+        self.setWindowTitle('계산기 v0.5')
+        self.setWindowIcon(QIcon('./studyPyQt/calculator.png'))
 
         # 시그널 16개의 슬롯함수 : 1개 -> btnClicked
         self.btn_C.clicked.connect(self.btnClicked)
