@@ -30,6 +30,7 @@
   - pymysql 모듈 사용
   - PyQt5 / Qt Designer
 
+<신규등록>
 ![주소록앱1_신규등록](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/addressbook1.png)
 
 <신규등록>
