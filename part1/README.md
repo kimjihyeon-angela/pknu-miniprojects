@@ -93,7 +93,15 @@
 
 <다이노 런 재시작 화면>
 
+- 전국 대학교 위치맵
+  - Pandas
+  - folium
+  - PyQt
+    - QWebEnginView 추가
 
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/folium_gui.png" width="780"/>
+
+<대학교 지도 표시>
 
 ## 미니프로젝트 실습
 - 
