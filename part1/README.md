@@ -103,6 +103,15 @@
 
 <대학교 지도 표시>
 
+- 계산기 앱
+  - PyQt
+  - 16개 signal을 1개의 slot 함수로 처리
+
+![계산기 앱](https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/calculator.png)
+
+<계산기 앱>
+
+
 ## 미니프로젝트 실습
 - 
 [팀 리포지토리](https://github.com/Tarel-IoT-PK/Campus)
