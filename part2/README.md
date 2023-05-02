@@ -14,3 +14,5 @@
 	
 	
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="700"/>
+
+<BogusTestApp - 진행 중>
