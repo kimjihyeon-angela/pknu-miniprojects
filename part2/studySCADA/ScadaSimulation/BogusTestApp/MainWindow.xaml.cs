@@ -23,5 +23,10 @@ namespace BogusTestApp
 
             RtbResult.Text = result;
         }
+
+        private void BtnReset_Click(object sender, RoutedEventArgs e)
+        {
+            RtbResult.Clear();
+        }
     }
 }

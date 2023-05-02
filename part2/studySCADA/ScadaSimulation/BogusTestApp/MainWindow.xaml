@@ -21,6 +21,8 @@
         <Button x:Name="BtnGenDummyData" Content="더미 데이터" Width="120" Margin="10"
                 HorizontalAlignment="Left"
                 Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="BtnGenDummyData_Click"/>
+        <Button x:Name="BtnReset" Content="Reset" Width="120" Margin="140,10,10,10" 
+                HorizontalAlignment="Left" Click="BtnReset_Click"/>
 
         <TextBox Grid.Row="1" x:Name="RtbResult" Margin="10" FontSize="15"
                  TextWrapping="Wrap" AcceptsReturn="True"  VerticalScrollBarVisibility="Visible"

@@ -12,3 +12,5 @@
 	- LiveCarts
 	- OxyChart
 	
+	
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="700"/>
