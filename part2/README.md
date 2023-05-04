@@ -16,3 +16,7 @@
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="700"/>
 
 <BogusTestApp - 진행 중>
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/FakeIotDeviceApp_ing.gif" width="700"/>
+
+<IoT 센서 출력 해보기>
