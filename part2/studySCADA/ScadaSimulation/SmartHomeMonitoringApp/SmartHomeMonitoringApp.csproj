@@ -232,11 +232,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Logics\Commons.cs" />
     <Compile Include="Views\DataBaseControl.xaml.cs">
       <DependentUpon>DataBaseControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DataBaseMonPage.xaml.cs">
       <DependentUpon>DataBaseMonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MqttPopupWindow.xaml.cs">
+      <DependentUpon>MqttPopupWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -255,6 +259,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DataBaseMonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MqttPopupWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

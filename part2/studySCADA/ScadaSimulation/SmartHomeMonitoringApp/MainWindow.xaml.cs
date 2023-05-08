@@ -1,4 +1,5 @@
 ﻿using MahApps.Metro.Controls;
+using SmartHomeMonitoringApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -33,7 +34,7 @@ namespace SmartHomeMonitoringApp
             // Frame => Page.xaml
             // ContentControl => UserControl.xaml사용해야함
 
-            ActiveItem.Content = new Views.DataBaseControl();
+            // ActiveItem.Content = new Views.DataBaseControl();
         }
 
         #region < 끝내기 버튼 클릭 이벤트 핸들러 >
@@ -44,6 +45,21 @@ namespace SmartHomeMonitoringApp
             // 위, 아래 둘 중 하나만 사용하면 됨
             // 작업 관리자에서 프로세스 종료와 같은 역할
             Process.GetCurrentProcess().Kill();
+        }
+        #endregion
+
+        #region < MQTT 시작메뉴 클릭 이벤트 핸들러 >
+        private void MnuStartSubscribe_Click(object sender, RoutedEventArgs e)
+        {
+            var mqttPopWin = new MqttPopupWindow();
+            mqttPopWin.Owner = this;
+            mqttPopWin.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            var result = mqttPopWin.ShowDialog();
+            
+            if (result == true)
+            {
+                ActiveItem.Content = new Views.DataBaseControl();
+            }
         }
         #endregion
     }
