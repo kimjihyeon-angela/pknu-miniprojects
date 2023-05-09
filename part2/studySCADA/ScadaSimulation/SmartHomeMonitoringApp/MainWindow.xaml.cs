@@ -1,4 +1,6 @@
 ﻿using MahApps.Metro.Controls;
+using MahApps.Metro.Controls.Dialogs;
+using SmartHomeMonitoringApp.Logics;
 using SmartHomeMonitoringApp.Views;
 using System;
 using System.Collections.Generic;
@@ -58,9 +60,48 @@ namespace SmartHomeMonitoringApp
             
             if (result == true)
             {
-                ActiveItem.Content = new Views.DataBaseControl();
+                var userControl = new Views.DataBaseControl();
+                ActiveItem.Content = userControl;
+                //StsSelScreen.Content = typeof(Views.DataBaseControl);
+                StsSelScreen.Content = "DataBase Monitoring";
             }
         }
         #endregion
+
+        private async void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            // e.Cancel을 true 하고 시작
+            e.Cancel = true;
+
+            var mySettings = new MetroDialogSettings
+                                 {
+                                     AffirmativeButtonText = "종료",
+                                     NegativeButtonText = "취소",
+                                     AnimateShow = true,
+                                     AnimateHide = true
+                                 };
+
+            var result = await this.ShowMessageAsync("프로그램을 종료","프로그램을 종료하시겠습니까?",
+                                                     MessageDialogStyle.AffirmativeAndNegative, mySettings);
+
+            if (result == MessageDialogResult.Negative)
+            {
+                e.Cancel = true;
+            }
+            else if (result == MessageDialogResult.Affirmative)
+            {
+                if (Commons.MQTT_CLIENT.IsConnected)
+                {
+                    Commons.MQTT_CLIENT.Disconnect();
+                }
+                Process.GetCurrentProcess().Kill(); // 가장 확실한 끝내기 방법
+            }
+        }
+
+        private void BtnExitProgram_Click(object sender, RoutedEventArgs e)
+        {
+            // 메트로윈도우 화면 닫을 때 이벤트 핸들러 호출
+            MetroWindow_Closing(sender, new System.ComponentModel.CancelEventArgs());
+        }
     }
 }
