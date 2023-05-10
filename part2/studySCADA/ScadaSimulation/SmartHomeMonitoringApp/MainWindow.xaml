@@ -62,19 +62,19 @@
                         <iconPacks:PackIconVaadinIcons Kind="Desktop" />
                     </MenuItem.Icon>
 
-                    <MenuItem x:Name="MnuDataBaseMon" Header="DB 모니터링">
+                    <MenuItem x:Name="MnuDataBaseMon" Header="DB 모니터링" Click="MnuDataBaseMon_Click">
                         <MenuItem.Icon>
                             <iconPacks:PackIconUnicons Kind="CloudDatabaseTree" />
                         </MenuItem.Icon>
                     </MenuItem>
 
-                    <MenuItem x:Name="MnuRealTimeMon" Header="실시간 모니터링">
+                    <MenuItem x:Name="MnuRealTimeMon" Header="실시간 모니터링" Click="MnuRealTimeMon_Click">
                         <MenuItem.Icon>
                             <iconPacks:PackIconVaadinIcons Kind="SplineChart" />
                         </MenuItem.Icon>
                     </MenuItem>
 
-                    <MenuItem x:Name="MnuVisualizationMon" Header="시각화">
+                    <MenuItem x:Name="MnuVisualizationMon" Header="시각화" Click="MnuVisualizationMon_Click">
                         <MenuItem.Icon>
                             <iconPacks:PackIconUnicons Kind="TachometerFastAlt" />
                         </MenuItem.Icon>

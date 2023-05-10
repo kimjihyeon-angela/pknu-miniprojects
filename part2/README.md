@@ -12,6 +12,9 @@
 	- LiveCarts
 	- OxyChart
 	
+- SmartHome 시스템 문제점
+	- UI
+	
 	
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="700"/>
 
@@ -30,3 +33,8 @@
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/SmartHomeMonitoringApp_Design.PNG" width="700"/>
 
 <SmartHomeMonitoringApp 디자인 화면>
+
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/smarthomemonitoringapp.gif" width="700"/>
+
+<SmartHomeMonitoringApp 실시간 모니터링 화면>

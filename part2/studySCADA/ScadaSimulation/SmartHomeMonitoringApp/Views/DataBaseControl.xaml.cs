@@ -46,12 +46,28 @@ namespace SmartHomeMonitoringApp.Views
 
             IsConnected = false; // 아직 접속 안되어 있음
             BtnConnDb.IsChecked = false;
+
+            // 실시간 모니터링에서 넘어왔을 때
+            if (Commons.MQTT_CLIENT != null && Commons.MQTT_CLIENT.IsConnected)
+            {
+                IsConnected = true;
+                BtnConnDb.Content = "MQTT 연결 중";
+                BtnConnDb.IsChecked = true;
+                Commons.MQTT_CLIENT.MqttMsgPublishReceived += MQTT_CLIENT_MqttMsgPublishReceived;
+
+            }
         }
         #endregion
 
         
         #region < 토글버튼 클릭이벤트 핸들러 (1 : 접속, 2 : 접속 해제) >
         private void BtnConnDb_Click(object sender, RoutedEventArgs e)
+        {
+           ConnectDB();
+
+        }
+
+        private void ConnectDB()
         {
             if (IsConnected == false)
             {
@@ -104,7 +120,6 @@ namespace SmartHomeMonitoringApp.Views
                     UpdateLog($"!!! MQTT Error 발생 : {ex.Message}");
                 }
             }
-
         }
 
         private void UpdateLog(string msg)
