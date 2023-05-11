@@ -32,6 +32,9 @@ namespace FakeIotDeviceApp
         MqttClient Client { get; set; }
         Thread MqttThread { get; set; }
 
+        //MQTT publish json 데이터 건수 체크 변수
+        int MaxCount { get; set; } = 10;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -101,8 +104,16 @@ namespace FakeIotDeviceApp
                         //paragraph.Inlines.Add(new Run(jsonValue));
                         //flowDoc.Blocks.Add(paragraph);
                         //RtbLog.Document = flowDoc;
+                        if (MaxCount <= 0)
+                        {
+                            RtbLog.SelectAll();
+                            RtbLog.Selection.Text = string.Empty;
+                            MaxCount = 10;
+                            RtbLog.AppendText(">>> 문서 건수가 많아져서 초기화\n");
+                        }
                         RtbLog.AppendText($"{jsonValue}\n");
                         RtbLog.ScrollToEnd(); // 스크롤 제일 밑으로 보내기
+                        MaxCount--;
                     }));
 
                     // RtbLog에 출력 -> 이대로 출력시 스레드와 UI 스레드간 충돌이 남
