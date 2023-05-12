@@ -54,3 +54,8 @@
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/oxyplot.png" width="700"/>
 
 <DB로 차트 그리기>
+
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/Theme_Accent.gif" width="700"/>
+
+<테마 및 색상 변경>

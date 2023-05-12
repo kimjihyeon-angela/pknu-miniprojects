@@ -1,9 +1,12 @@
-﻿using MahApps.Metro.Controls;
+﻿using ControlzEx.Theming;
+using MahApps.Metro.Controls;
 using MahApps.Metro.Controls.Dialogs;
 using SmartHomeMonitoringApp.Logics;
 using SmartHomeMonitoringApp.Views;
 using System.Diagnostics;
+using System.Web.UI.WebControls;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace SmartHomeMonitoringApp
 {
@@ -12,9 +15,14 @@ namespace SmartHomeMonitoringApp
     /// </summary>
     public partial class MainWindow : MetroWindow
     {
+        string DefaultTheme { get; set; } = "Light";
+        string DefaultAccent { get; set; } = "Yellow";
+
         public MainWindow()
         {
             InitializeComponent();
+            ThemeManager.Current.ThemeSyncMode = ThemeSyncMode.SyncWithAppMode;
+            ThemeManager.Current.SyncTheme();
         }
 
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
@@ -85,6 +93,7 @@ namespace SmartHomeMonitoringApp
             }
         }
 
+        #region < 메뉴버튼 클릭 시 창 이동 이벤트 >
         private void BtnExitProgram_Click(object sender, RoutedEventArgs e)
         {
             // 메트로윈도우 화면 닫을 때 이벤트 핸들러 호출
@@ -116,5 +125,153 @@ namespace SmartHomeMonitoringApp
             about.Owner = this;
             about.Show();
         }
+
+
+        #region < 테마, 액센트 전부 처리할 이벤트 핸들러 >
+        private void MnuThemeAccent_Clck(object sender, RoutedEventArgs e)
+        {
+            // 클릭되는 테마가 라이트인지 다크인지 판단
+            // -> 라이트 클릭하면 다크 체크 해제, 다크 클릭하면 라이트 체크 해제
+            Debug.WriteLine((sender as System.Windows.Controls.MenuItem).Header);
+
+            switch ((sender as System.Windows.Controls.MenuItem).Header)
+            {
+                case "Light":
+                    MnuLightTheme.IsChecked = true; 
+                    MnuDarkTheme.IsChecked = false;
+                    DefaultTheme = "Light";
+                    break;
+
+                case "Dark":
+                    MnuLightTheme.IsChecked = false;
+                    MnuDarkTheme.IsChecked = true;
+                    DefaultTheme = "Dark";
+                    break;
+
+                case "Amber":
+                    MnuAccentAmber.IsChecked = true;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Amber";
+                    break;
+
+                case "Emerald":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = true;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Emerald";
+                    break;
+
+                case "Blue":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = true;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Blue";
+                    break;
+
+                case "Brown":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = true;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Brown";
+                    break;
+
+                case "Cobalt":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = true;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Cobalt";
+                    break;
+
+                case "Crimson":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = true;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Crimson";
+                    break;
+
+                case "Cyan":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = true;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Cyan";
+                    break;
+
+                case "Green":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = true;
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Green";
+                    break;
+
+                case "Yellow":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentYellow.IsChecked = true;
+                    DefaultAccent = "Yellow";
+                    break;
+            }
+
+            // Accent도 체크 하는 값을 받아와 나머지 액센트 체크 해제
+
+
+            ThemeManager.Current.ChangeTheme(this, $"{DefaultTheme}.{DefaultAccent}");
+        }
+        #endregion
+        #endregion
     }
 }

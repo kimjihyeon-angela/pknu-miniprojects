@@ -85,6 +85,24 @@
                     <MenuItem.Icon>
                         <iconPacks:PackIconRemixIcon Kind="PaletteLine" />
                     </MenuItem.Icon>
+
+                    <MenuItem Header="테마">
+                        <MenuItem x:Name="MnuLightTheme" Header="Light" IsChecked="True" IsCheckable="True" Click="MnuThemeAccent_Clck" />
+
+                        <MenuItem x:Name="MnuDarkTheme" Header="Dark" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                    </MenuItem>
+
+                    <MenuItem Header="액센트">
+                        <MenuItem x:Name="MnuAccentAmber" Header="Amber" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentBlue" Header="Blue" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentBrown" Header="Brown" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentCobalt" Header="Cobalt" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentCrimson" Header="Crimson" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentCyan" Header="Cyan" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentEmerald" Header="Emerald" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentGreen" Header="Green" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentYellow" Header="Yellow" IsChecked="True" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                    </MenuItem>
                 </MenuItem>
                 
                 <MenuItem Header="도움말" >
