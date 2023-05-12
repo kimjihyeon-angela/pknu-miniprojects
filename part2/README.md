@@ -24,6 +24,7 @@
 
 <BogusTestApp>
 
+
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/FakeIotDeviceApp_ing.gif" width="700"/>
 
 <IoT 센서 출력 해보기>
@@ -43,9 +44,11 @@
 
 <SmartHomeMonitoringApp 실시간 모니터링 화면>
 
-<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/fake+smarthome.gif" width="700"/>
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/Fake-smarthome.gif" width="700"/>
 
 <FakeIotDeviceApp + SmartHomeMonitoringApp 실시간 모니터링 화면(온습도 더미데이터 시뮬레이터)>
+
 
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/oxyplot.png" width="700"/>
 
