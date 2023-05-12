@@ -10,13 +10,17 @@
 	- M2Mqtt (통신 라이브러리)
 	- DB 데이터바인딩
 	- LiveCarts
-	- OxyChart
+	- OxyPlot
 	
 - SmartHome 시스템 문제점
-	- UI
+	- 실행 후 로그 텍스트박스 내용 많아 UI가 느려짐
+		- > 일정 수의 로그 출력 후 내용 삭제
+	- LiveCarts로 실시간 게이지 외 대용량의 내용을 출력할 경우 시간이 오래걸림
+		- > 대용량의 내용 출력할 경우 OxyPlot을 사용해야함
+
+
 	
-	
-<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="700"/>
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="460"/>
 
 <BogusTestApp>
 
@@ -38,3 +42,11 @@
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/smarthomemonitoringapp.gif" width="700"/>
 
 <SmartHomeMonitoringApp 실시간 모니터링 화면>
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/fake+smarthome.gif" width="700"/>
+
+<FakeIotDeviceApp + SmartHomeMonitoringApp 실시간 모니터링 화면(온습도 더미데이터 시뮬레이터)>
+
+<img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/oxyplot.png" width="700"/>
+
+<DB로 차트 그리기>

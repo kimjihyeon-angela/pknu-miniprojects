@@ -42,6 +42,9 @@
                 <DatePicker x:Name="DtpEnd" Width="110" FontSize="14" VerticalAlignment="Center" />
             </StackPanel>
 
+            <Label Grid.Column="1" x:Name="LblTotalCount" Content="데이터 검색 0개" 
+                   HorizontalAlignment="Right" VerticalAlignment="Center" />
+
             <Button Grid.Column="2" Content="검색" Margin="10,10,10,0" Width="80" x:Name="BtnSearch" Click="BtnSearch_Click"
                     Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Height="30" VerticalAlignment="Top"/>
         </Grid>
@@ -60,7 +63,7 @@
             </lvc:CartesianChart.AxisX>--><!--
         </lvc:CartesianChart>-->
 
-        <oxy:PlotView Grid.Row="2" x:Name="o" Margin="10" Background="Gainsboro" >
+        <oxy:PlotView Grid.Row="2" x:Name="OpvSmartHome" Margin="10" Background="Gainsboro" >
             
         </oxy:PlotView>
 

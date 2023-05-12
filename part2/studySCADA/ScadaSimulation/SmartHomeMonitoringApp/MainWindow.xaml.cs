@@ -2,21 +2,8 @@
 using MahApps.Metro.Controls.Dialogs;
 using SmartHomeMonitoringApp.Logics;
 using SmartHomeMonitoringApp.Views;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace SmartHomeMonitoringApp
 {
@@ -121,6 +108,13 @@ namespace SmartHomeMonitoringApp
         {
             ActiveItem.Content = new Views.VisualizationControl();
             StsSelScreen.Content = "Visualization View";
+        }
+
+        private void MnuAbout_Click(object sender, RoutedEventArgs e)
+        {
+            var about = new About();
+            about.Owner = this;
+            about.Show();
         }
     }
 }
