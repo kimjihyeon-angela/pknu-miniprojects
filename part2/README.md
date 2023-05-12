@@ -21,7 +21,9 @@
 
 	
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/BogusTestApp.gif" width="700"/>
-<BogusTestApp>
+
+
+< BogusTestApp >
 
 
 <img src="https://raw.githubusercontent.com/kimjihyeon-angela/miniprojects/main/images/FakeIotDeviceApp_ing.gif" width="700"/>
