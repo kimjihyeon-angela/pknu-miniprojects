@@ -4,7 +4,6 @@ using MahApps.Metro.Controls.Dialogs;
 using SmartHomeMonitoringApp.Logics;
 using SmartHomeMonitoringApp.Views;
 using System.Diagnostics;
-using System.Web.UI.WebControls;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -132,9 +131,9 @@ namespace SmartHomeMonitoringApp
         {
             // 클릭되는 테마가 라이트인지 다크인지 판단
             // -> 라이트 클릭하면 다크 체크 해제, 다크 클릭하면 라이트 체크 해제
-            Debug.WriteLine((sender as System.Windows.Controls.MenuItem).Header);
+            Debug.WriteLine((sender as MenuItem).Header);
 
-            switch ((sender as System.Windows.Controls.MenuItem).Header)
+            switch ((sender as MenuItem).Header)
             {
                 case "Light":
                     MnuLightTheme.IsChecked = true; 
