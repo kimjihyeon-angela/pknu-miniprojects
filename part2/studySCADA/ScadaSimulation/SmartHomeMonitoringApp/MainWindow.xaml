@@ -101,6 +101,15 @@
                         <MenuItem x:Name="MnuAccentCyan" Header="Cyan" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
                         <MenuItem x:Name="MnuAccentEmerald" Header="Emerald" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
                         <MenuItem x:Name="MnuAccentGreen" Header="Green" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentIndigo" Header="Indigo" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentLime" Header="Lime" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentMagenta" Header="Magenta" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentMauve" Header="Mauve" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentOlive" Header="Olive" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentOrange" Header="Orange" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentPink" Header="Pink" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentPurple" Header="Purple" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
+                        <MenuItem x:Name="MnuAccentRed" Header="Red" IsChecked="False" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
                         <MenuItem x:Name="MnuAccentYellow" Header="Yellow" IsChecked="True" IsCheckable="True" Click="MnuThemeAccent_Clck"/>
                     </MenuItem>
                 </MenuItem>

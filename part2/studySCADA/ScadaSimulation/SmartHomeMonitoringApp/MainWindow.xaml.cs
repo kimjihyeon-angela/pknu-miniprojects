@@ -156,6 +156,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Amber";
                     break;
@@ -169,6 +179,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Emerald";
                     break;
@@ -182,6 +202,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Blue";
                     break;
@@ -195,6 +225,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Brown";
                     break;
@@ -208,6 +248,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Cobalt";
                     break;
@@ -221,6 +271,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = true;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Crimson";
                     break;
@@ -234,6 +294,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = true;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Cyan";
                     break;
@@ -247,8 +317,225 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = true;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = false;
                     DefaultAccent = "Green";
+                    break;
+
+                case "Indigo":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = true;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Indigo";
+                    break;
+
+                case "Lime":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = true;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Lime";
+                    break;
+
+                case "Magenta":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = true;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Magenta";
+                    break;
+
+                case "Mauve":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = true;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Mauve";
+                    break;
+
+                case "Olive":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = true;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Olive";
+                    break;
+
+                case "Orange":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = true;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Orange";
+                    break;
+
+                case "Pink":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = true;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Pink";
+                    break;
+
+                case "Purple":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = true;
+                    MnuAccentRed.IsChecked = false;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Purple";
+                    break;
+
+                case "Red":
+                    MnuAccentAmber.IsChecked = false;
+                    MnuAccentEmerald.IsChecked = false;
+                    MnuAccentBlue.IsChecked = false;
+                    MnuAccentBrown.IsChecked = false;
+                    MnuAccentCobalt.IsChecked = false;
+                    MnuAccentCrimson.IsChecked = false;
+                    MnuAccentCyan.IsChecked = false;
+                    MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentRed.IsChecked = true;
+
+                    MnuAccentYellow.IsChecked = false;
+                    DefaultAccent = "Red";
                     break;
 
                 case "Yellow":
@@ -260,6 +547,16 @@ namespace SmartHomeMonitoringApp
                     MnuAccentCrimson.IsChecked = false;
                     MnuAccentCyan.IsChecked = false;
                     MnuAccentGreen.IsChecked = false;
+                    MnuAccentIndigo.IsChecked = false;
+                    MnuAccentLime.IsChecked = false;
+                    MnuAccentMagenta.IsChecked = false;
+                    MnuAccentMauve.IsChecked = false;
+                    MnuAccentOlive.IsChecked = false;
+                    MnuAccentOrange.IsChecked = false;
+                    MnuAccentPurple.IsChecked = false;
+                    MnuAccentPink.IsChecked = false;
+                    MnuAccentRed.IsChecked = false;
+
                     MnuAccentYellow.IsChecked = true;
                     DefaultAccent = "Yellow";
                     break;
